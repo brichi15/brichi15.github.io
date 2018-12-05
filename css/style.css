@@ -459,7 +459,8 @@ nav ul li a {
 }
 
 #game .snakeCanvas {
-  position: absolute;
+  position: relative;
+  widows: 100%;
 }
 
 /*-----------------------------------------------------------------------------------*/
