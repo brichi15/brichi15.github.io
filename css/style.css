@@ -453,15 +453,19 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #game {
-  display: inline-block;
-  width: 100%;
-  position: relative;
   padding-top: 60px;
+}
+
+#game .gameWin {
+  height: 0;
+  position: relative;
 }
 
 #game .snakeCanvas {
   position: absolute;
-  top: 0; bottom: 0; right: 0; left: 0;
+  top: 0; left: 0;
+  max-width: 100%;
+  height: auto;
 }
 
 /*-----------------------------------------------------------------------------------*/
