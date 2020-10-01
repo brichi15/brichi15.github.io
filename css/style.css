@@ -33,12 +33,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  color: #292929;
   font-weight: 600;
 }
 
 h4 {
-  color: #292929;
   font-size: 14px;
   font-weight: 600;
 }
@@ -265,24 +263,19 @@ nav ul li a {
   color: #fff;
 }
 
-.header-content p {
-  font-size: 13px;
-  letter-spacing: 5px;
-  margin-top: 0;
-  margin-bottom: 30px;
-  text-transform: capitalize;
+.header-content h3 {
   color: #fff;
-  font-weight: 500;
 }
 
 .header-content .list-social li {
   float: right;
-  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
 .header-content .list-social li i {
   color: #fff;
-  font-size: 15px;
+  font-size: 30px;
 }
 
 /*-----------------------------------------------------------------------------------*/
