@@ -276,6 +276,16 @@ nav ul li a {
 .header-content .list-social li i {
   color: #fff;
   font-size: 30px;
+  
+}
+
+.header-content .list-social li i:hover {
+  color: #b8a07e;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -306,12 +316,14 @@ nav ul li a {
   font-family: 'helvetica';
   font-size: 28px;
   text-align: left;
+  line-height: 140%;
 }
 
 #about .about-descr .separator {
-  max-width: 80%;
+  max-width: 90%;
   margin-bottom: 0;
   text-align: left;
+  font-size: 110%;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -455,10 +467,11 @@ nav ul li a {
 }
 
 #game .snakeCanvas {
-  position: absolute;
+  position: relative;
   top: 0; left: 0;
   max-width: 100%;
   height: auto;
+
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -476,8 +489,18 @@ nav ul li a {
   padding: 0;
 }
 
-.contact-details li {
+.contact-details li a{
   padding-bottom: 10px;
+  color: #999;
+}
+
+.contact-details li a:hover {
+  color: #b8a07e;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
 }
 
 #contact input, #contact textarea {
@@ -550,11 +573,6 @@ nav ul li a {
   font-weight: 500;
   background: transparent;
   text-transform: uppercase;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
 }
 
 #footer .socials-media ul li a:hover {
